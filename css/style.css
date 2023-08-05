@@ -123,7 +123,7 @@ a {
     border: 2px solid var(--main-color);
     display: block;
     padding: 10px;
-    transition: all .3s;
+    transition: all 0.3s;
     cursor: pointer;
 }
 .work .links a:hover,
@@ -133,8 +133,8 @@ a {
     border-color: var(--secondary-color);
 }
 .work img.hidden {
-    opacity: .08;
-    transition: all .3s;
+    opacity: 0.08;
+    transition: all 0.3s;
 }
 /* END Features */
 /* START Posts */
@@ -147,7 +147,7 @@ a {
 /* END Posts */
 /* START Testimonials */
 .testimonials {
-    background-image: url('../images/testimonial.jpg');
+    background-image: url("../images/testimonial.jpg");
     background-size: cover;
     background-position: fixed;
     z-index: 1;
